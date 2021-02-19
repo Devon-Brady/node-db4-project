@@ -1,0 +1,32 @@
+{
+  "name": "node-db4-project",
+  "version": "1.0.0",
+  "description": "Follow these steps to set up and work on your project:",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "knex": "^0.21.17",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "seed":"knex seed:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devon-Brady/node-db4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devon-Brady/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/Devon-Brady/node-db4-project#readme"
+}
